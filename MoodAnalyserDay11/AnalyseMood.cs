@@ -15,12 +15,19 @@ namespace MoodAnalyserDay11
         {
             try
             {
+                if (this.message.Equals(string.Empty))
+                    throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.EMPTY_MESSAGE, "mood Cannot be empty");
                 if (this.message.Contains("HAPPY"))
                     return "HAPPY";
                 else
                     return "SAD";
+               
             }
-            catch { return "HAPPY"; }
+            catch(NullReferenceException)
+            {
+                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.NULL_MESSAGE, "mood Cannot be null");
+            }
+            
            
         }
         
