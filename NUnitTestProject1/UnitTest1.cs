@@ -34,12 +34,33 @@ namespace NUnitTestProject1
         }
         [Test]
 
-        public void Given_EMPTY_Should_return_EMPTY()
+        public void Given_EMPTY_Should_return_EmptyMessage()
         {
-            AnalyseMood analyseMood = new AnalyseMood("");
-            string actual = analyseMood.MoodAnalyse();
+            try
+            {
+                string message="";
+                AnalyseMood analyseMood = new AnalyseMood(message);
+                string mood = analyseMood.MoodAnalyse();
+            }
+            catch (MoodAnalyserCustomException ex)
+            {
+                Assert.AreEqual("mood Cannot be empty", ex.Message);
+            }
+        }
+        [Test]
 
-            Assert.AreEqual("mood Cannot be empty", actual);
+        public void Given_Null_Should_return_NullMessage()
+        {
+            try
+            {
+                string message = null;
+                AnalyseMood analyseMood = new AnalyseMood(message);
+                string mood = analyseMood.MoodAnalyse();
+            }
+            catch (MoodAnalyserCustomException ex)
+            {
+                Assert.AreEqual("mood Cannot be null", ex.Message);
+            }
         }
     }
 }
