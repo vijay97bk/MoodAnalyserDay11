@@ -4,8 +4,6 @@ using System.Text;
 
 namespace MoodAnalyserDay11
 {
-   
-
     public class AnalyseMood
     {
         string message;
@@ -13,13 +11,17 @@ namespace MoodAnalyserDay11
         {
             this.message = message;
         }
-        public void MoodAnalyse()
+        public string MoodAnalyse()
         {
-            if (this.message.Contains("happy"))
-                Console.WriteLine("Happy");
-            else
-                Console.WriteLine("sad");
-
+            try
+            {
+                if (this.message.Contains("HAPPY"))
+                    return "HAPPY";
+                else
+                    return "SAD";
+            }
+            catch { return "HAPPY"; }
+           
         }
         
         

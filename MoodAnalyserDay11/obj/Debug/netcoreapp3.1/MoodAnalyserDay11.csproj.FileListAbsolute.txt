@@ -1,0 +1,13 @@
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\bin\Debug\netcoreapp3.1\MoodAnalyserDay11.exe
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\bin\Debug\netcoreapp3.1\MoodAnalyserDay11.deps.json
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\bin\Debug\netcoreapp3.1\MoodAnalyserDay11.runtimeconfig.json
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\bin\Debug\netcoreapp3.1\MoodAnalyserDay11.runtimeconfig.dev.json
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\bin\Debug\netcoreapp3.1\MoodAnalyserDay11.dll
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\bin\Debug\netcoreapp3.1\MoodAnalyserDay11.pdb
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\obj\Debug\netcoreapp3.1\MoodAnalyserDay11.csprojAssemblyReference.cache
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\obj\Debug\netcoreapp3.1\MoodAnalyserDay11.AssemblyInfoInputs.cache
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\obj\Debug\netcoreapp3.1\MoodAnalyserDay11.AssemblyInfo.cs
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\obj\Debug\netcoreapp3.1\MoodAnalyserDay11.csproj.CoreCompileInputs.cache
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\obj\Debug\netcoreapp3.1\MoodAnalyserDay11.dll
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\obj\Debug\netcoreapp3.1\MoodAnalyserDay11.pdb
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\MoodAnalyserDay11\MoodAnalyserDay11\obj\Debug\netcoreapp3.1\MoodAnalyserDay11.genruntimeconfig.cache
